@@ -27,14 +27,14 @@ public class Demo04_WebElements_Methods {
 		driver.findElement(By.id("user_login")).sendKeys("username");
 		driver.findElement(By.name("user_password")).sendKeys("password");
 		File src = driver.findElement(By.name("user_password")).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("./BeforeChange.png"));
+		FileUtils.copyFile(src, new File("./basics/Demo04_WebElements_Methods_BeforeChange.png"));
 
 		// clear()
 		driver.findElement(By.name("user_password")).clear();
 
 		// Screenshot of webelement
 		src = driver.findElement(By.name("user_password")).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(src, new File("./AfterChange.png"));
+		FileUtils.copyFile(src, new File("./basics/Demo04_WebElements_Methods_AfterChange.png"));
 
 		driver.findElement(By.name("user_password")).sendKeys("password");
 
