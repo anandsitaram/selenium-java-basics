@@ -1,4 +1,4 @@
-package basics;
+package com.basics;
 
 import java.util.concurrent.TimeUnit;
 

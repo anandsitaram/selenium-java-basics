@@ -1,4 +1,4 @@
-package synchronization;
+package com.synchronization;
 
 import java.time.Duration;
 import java.time.Instant;

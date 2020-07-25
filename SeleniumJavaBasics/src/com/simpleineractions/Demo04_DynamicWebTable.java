@@ -1,4 +1,4 @@
-package simpleineractions;
+package com.simpleineractions;
 
 import java.io.File;
 import java.io.IOException;
